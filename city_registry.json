@@ -1,0 +1,30 @@
+{
+    "cities": [
+        {
+            "name": "Porto Alegre",
+            "country": "Brazil",
+            "lidar_year": 2021,
+            "extent": {
+                "xmin": -51.25, "ymin": -30.15,
+                "xmax": -51.10, "ymax": -30.00
+            },
+            "lidar_assets": {
+                "dsm": "projects/your-project/assets/POA_DSM_2021",
+                "dtm": "projects/your-project/assets/POA_DTM_2021"
+            }
+        },
+        {
+            "name": "São Paulo",
+            "country": "Brazil",
+            "lidar_year": 2017,
+            "extent": {
+                "xmin": -46.80, "ymin": -23.70,
+                "xmax": -46.50, "ymax": -23.40
+            },
+            "lidar_assets": {
+                "dsm": "projects/your-project/assets/SP_DSM_2017",
+                "dtm": "projects/your-project/assets/SP_DTM_2017"
+            }
+        }
+    ]
+}
